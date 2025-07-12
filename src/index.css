@@ -1,1 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --background-colour-primary: #1890ff;
+
+    --text-colour-primary: #ffffff;
+    --text-colour-secondary: #000000;
+    --text-colour-tertiary: #7e7e7e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}

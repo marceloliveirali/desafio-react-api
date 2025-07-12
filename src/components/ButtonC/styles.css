@@ -1,0 +1,15 @@
+.buttonC {
+    background-color: var(--background-colour-primary);
+    border: 1px solid var(--background-colour-primary);
+    margin-left: 41px;
+    width: 101px;
+    height: 40px;
+    border-radius: 4px;
+    color: var(--text-colour-primary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+

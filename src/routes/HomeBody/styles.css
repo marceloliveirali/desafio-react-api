@@ -1,0 +1,30 @@
+.homeBodyH1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-colour-secondary);
+    line-height: 64px;
+    margin-left: 41px;
+    letter-spacing: 2%;
+    vertical-align: middle;
+}
+
+.homeBodyP {
+    margin-left: 41px;
+    margin-bottom: 27px;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--text-colour-tertiary);
+    line-height: 40px;
+    letter-spacing: 2%;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 768px) {
+    .homeBodyH1 {
+        font-size: 32px;
+    }
+
+    .homeBodyP {
+        font-size: 16px;
+    }
+}
