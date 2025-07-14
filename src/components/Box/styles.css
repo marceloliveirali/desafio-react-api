@@ -1,0 +1,31 @@
+.container-box {
+    background-color: var(--background-colour-secondary);
+    border: 1px solid var(--background-colour-secondary);
+    margin: 0 90px;
+    height: 270px;
+    display: block;
+    border-radius: 8px;
+}
+
+.label-box {
+    display: block;
+}
+
+.text-label1 {
+    margin: 54px 0 12px 31px;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 46px;
+}
+
+.input1 {
+    margin: 0 0 24px 31px;
+    padding: 8px 27px 8px 17px;
+    width: 298px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 24px;
+}
