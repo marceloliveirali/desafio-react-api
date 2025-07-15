@@ -1,0 +1,7 @@
+.text-notFound {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 46px;
+    color: var(--text-colour-secondary);
+    margin-left: 90px;
+}

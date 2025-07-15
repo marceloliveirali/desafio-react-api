@@ -1,5 +1,7 @@
 import Box from '../../components/Box';
+import BoxCard from '../../components/BoxCard';
 import ButtonC from '../../components/ButtonC';
+import NotFound from '../NotFound';
 import './styles.css';
 
 function HomeBody() 
@@ -10,6 +12,8 @@ function HomeBody()
             <p className='homeBodyP'>DevSuperior - Escola de programação</p>
             <ButtonC />
             <Box />
+            <BoxCard />
+            <NotFound />
         </>
     );
 }
