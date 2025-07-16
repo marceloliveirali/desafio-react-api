@@ -6,11 +6,15 @@ header {
     justify-content: flex-start;
     align-items: center;
     padding-left: 41px;
-    margin-bottom: 27px;
+    margin-bottom: 54px;
 }
 
 h1 {
     font-size: 24px;
     font-weight: 500;
     color: var(--text-colour-primary);
+}
+
+.header-link {
+    text-decoration: none;
 }
