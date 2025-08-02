@@ -55,12 +55,12 @@ function Box()
                     <ButtonE />
                 </form>
             </div>
-            {
+            { 
                 hasSearched && (
                     viewBoxCard
                     ? <BoxCard username={value} />
-                    : <h1>Erro ao Buscar usuários</h1>
-                )    
+                    : <p className='erroUsuario'>Erro ao buscar usuário</p>
+                )
             }
         </>
     );

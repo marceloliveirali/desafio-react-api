@@ -29,3 +29,34 @@
     align-items: center;
     line-height: 24px;
 }
+
+.erroUsuario {
+    font-weight: 500;
+    font-size: 38px;
+    color: var(--text-colour-tertiary);
+    margin-top: 64px;
+    margin-left: 90px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container-box {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+    }
+
+    .text-label1 {
+        font-size: 24px;
+    }
+
+    .input1 {
+        font-size: 16px;
+        width: 250px;
+    }
+
+    .erroUsuario {
+        font-size: 24px;
+        margin: 64px 35px;
+    }
+}

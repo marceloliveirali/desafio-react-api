@@ -4,7 +4,7 @@ function NotFound()
 {
     return (
         <>
-            <h1 className="text-notFound">Erro ao buscar usuário</h1>
+            <h1 className="text-notFound">Pagina não encontrada</h1>
         </>
     );
 }

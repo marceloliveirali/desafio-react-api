@@ -6,3 +6,12 @@
     color: var(--text-colour-secondary);
     margin-left: 90px;
 }
+
+@media screen and (max-width: 768px) {
+    .text-notFound {
+        margin-top: 32px;
+        font-size: 24px;
+        line-height: 32px;
+        margin-left: 20px;
+    }
+}
